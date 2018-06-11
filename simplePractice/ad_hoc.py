@@ -73,4 +73,5 @@ def two_strings_anagram(str1,str2):
 
 two_strings_anagram("spar","rasp")
 two_strings_anagram("spark","rasp")
+two_strings_anagram("mareena","anameern")
 
