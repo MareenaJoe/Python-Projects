@@ -25,6 +25,7 @@ def count_words_characters(str):
     print("Number of words in the string: ",word)
     print ("Number of characters in the string:",char)
 
+
 count_words_characters("Hello World")
 
 from collections import Counter
