@@ -1,3 +1,5 @@
+from collections import Counter
+
 def count_string_word():
     str = 'mareena'
     print (str.count('a',0,len(str)))
@@ -28,7 +30,6 @@ def count_words_characters(str):
 
 count_words_characters("Hello World")
 
-from collections import Counter
 def find_dup_char(input):
     '''
     :param input: string
