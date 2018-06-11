@@ -1,4 +1,4 @@
-# is a python program to add numbers
+#This is a python program to add numbers
 def is_even(number):
     is_even = False
     if number % 2 == 0:
