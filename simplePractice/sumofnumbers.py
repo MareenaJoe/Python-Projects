@@ -1,4 +1,5 @@
 #This is a python program to add numbers
+# Check even or Odd
 def is_even(number):
     is_even = False
     if number % 2 == 0:
@@ -32,5 +33,6 @@ print ("Sum of even numbers: {}".format(sum_of_even_numbers(10)))
 
 print ("Sum of odd numbers: {}".format(sum_of_odd_numbers(10)))
 
+print ("Sum of odd numbers: {}".format(sum_of_odd_numbers(50)))
 
 

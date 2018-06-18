@@ -5,7 +5,7 @@ def count_string_word():
     str = 'mareena'
     print (str.count('a',0,len(str)))
 
-
+# Count number of chars in a string
 def count_words_characters(str):
     """
     str -> number
@@ -31,6 +31,7 @@ def count_words_characters(str):
 
 count_words_characters("Hello World")
 
+# Find all duplicate characters from a string.
 def find_dup_char(input):
     '''
     :param input: string
@@ -77,4 +78,5 @@ def two_strings_anagram(str1,str2):
 two_strings_anagram("spar","rasp")
 two_strings_anagram("spark","rasp")
 two_strings_anagram("mareena","anameern")
+two_strings_anagram("mark","rasp")
 
